@@ -1,0 +1,135 @@
+/* 
+LABORATORY EXERCISE #4
+Your task is to edit this CSS file and design the different web pages. You are NOT allowed to modify/change the HTML files.
+Be creative with your designs. Points will be given based on originality, creativity and overall amazingness.
+*/
+
+/* Basic styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  header {
+    background-color:#4CAF50;
+    background-size: cover;
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+  }
+  #title {
+    font-style: italic;
+}
+
+.imgBanner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.coffee img.imgBanner{
+    width: 100px;
+    height: 100px;
+
+}
+  
+  .navBar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 3px;
+  }
+  
+  .navBar a { 
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    position: relative; 
+    padding: 10px 20px;  
+    display: inline-block;
+  }
+
+  .navBar a:hover {
+    background: rgba(255, 99, 71, 0.5);  
+    color: black;
+    /* height: 100%;  */
+    transition: background 0.3s ease;  
+    text-decoration: none;
+    border-radius: 12px;
+  }
+
+  #about{
+    padding: 0;
+    text-align: center;
+    
+  }
+
+  .term{
+    font-style: italic;
+    color: #007BFF;
+  }
+
+  li{
+    list-style-type:none;
+    padding: 0;
+    text-align: center;
+    display: inline;
+  }
+
+
+  .imgBanner {
+    width: 100%;
+    height: auto;
+  }
+  
+  .coffee {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .definition {
+    line-height: 1.6;
+  }
+  
+  .emphasis {
+    font-weight: bold;
+    color: #4CAF50;
+  }
+  
+  
+  .teamMember {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .label {
+    text-align: center;
+  }
+  
+  #bottomPage {
+    margin-top: 40px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contacts {
+    margin-top: 10px;
+  }
+  
+  
